@@ -1,0 +1,82 @@
+Difference between Java and Python.
+Difference between Statically Typed and Dynamically Typed.
+What is a Virtual Machine?
+What is the Internet?
+What is the difference between Validation testing and Verification testing?
+Differences between analog vs digital.
+Differences between AC and DC.
+What is digital signal processing?
+What is the Fourier Transform?
+What does FFT stand for?
+What is a protocol?
+What is a port?
+What is a socket?
+What is a server?
+What’s the difference between LAN and WAN?
+What is a host?
+What is Dial Up?
+What is DSL (Digital Subscriber Line)?
+What is HFC (cable internet)?
+What is FTTH (Fiber To The Home)?
+What is pickling and unpickling in Python?  Also known as (sterilization, flattening, marshaling)
+How is Python interpreted?
+How does Python manage memory?
+What is a namespace in Python?
+What is lambda in Python?
+What are special methods, dunder methods, and magic methods?
+What is an iterator?
+What is a generator?
+When would an iterator be useful?
+What is the assert keyword?
+What it slicing in Python?
+How can you copy an object in Python?
+What is the difference between xrange and range?
+What is a folder and module?
+What does the // operator do in Python?
+What does the yield keyword do?
+What does the raise keyword do?
+What does the finally keyword do?
+What is the difference between nonlocal and global?
+What is JTAG (Joint Test Action Group)?
+What is MIDS?
+What is Corelis?
+What is Boundary Scan?
+What is MIDS-JTRS?
+What is link 16?
+What is BATS-D?
+What is TACAN (Tactical Air Navigation System)?
+What is checksum?
+What is the Transport Layer?
+UDP VS TCP?
+What is FTP?
+What is Layering?
+Will 125.47.32.170/25  and  125.47.32.53/25 be able to ping each other?
+What is the valid IP Range of 125.47.32.170/25?
+What is the valid IP Range of 200.23.16.92/22?
+What is subnetting?
+Divide 192.168.5.0/24 into 4 subnets.
+How does your web scrapper work?
+How does your face detection software work?
+How did you make your x86 assembly website?
+Tell me about your ride sharing website?
+Why did you decide to create this ride-sharing website?
+How does the ride-sharing website work?
+What are some constraints to your website?
+What were some of your interface requirements?
+What where some functional requirements?
+What were some of the functional requirements?
+What where some Software System Attributes?
+How did you come up with the architecture?
+Could you have used MVC?
+How did you test your website?
+How did you manage your time?
+What were the inputs and outputs of the heuristic function?
+What is mini max?
+What is alpha-beta pruning?
+Tell me about your robotics experience.
+Tell me about digital and analog pins in an Arduino.
+What is current (Amps)?
+What is voltage?
+How do you manage your time?
+What is your biggest weakness?
+What is the equation for a wave not moving?

@@ -1,0 +1,88 @@
+1.	Tell me a time when you didn’t know how to do something and how did you resolve that situation.
+2.	What is your favorite part about computer science?
+3.	What experience do you have in C?
+4.	What steps would you take to solve a design problem?
+5.	How many bits are in a byte?
+6.	How many bits are in an int?
+7.	What is a heap?
+8.	Which of the following is not a keyword in python 2? Break, lambda, void, yield, while...
+9.	What is a dictionary in python?
+10.	What is the difference between a list and a tuple in python?
+11.	What is the definition of sin in trigonometry?
+12.	What is a decorator?
+13.	Do you have experience in linux?
+14.	What compiler did you use in Linux for C++?
+15.	How do you debug code in Linux?
+16.	Have you used ddd or gdb?
+17.	What does #define do in C?
+18.	Have you ever used a macro in C?
+19.	What is a reference variable?
+20.	What is a pointer?
+21.	What does the “static” keyword do?
+How does left shift works?
+How does right shift work?
+What is 0xFF shifted left twice?
+What is RTOS?
+What is volatile in C?
+What is a stack used for in memory?
+What is a heap used for in memory?
+What is garbage collection?
+How many bytes does 1 char and 1 int take up in memory?
+Are strings objects?
+What are internal pointer variables?
+How many bytes are allocated in char name[5] = “Alex”?
+What is 0x123456 in little endian?
+What is 0x123456 in big endian?
+What is the most significant bit and least significant bit in 010101001?
+What is a Kernel?
+How many heaps are there with 5 threads?
+What is a linked list?
+What is an Array?
+Linked List vs Array?
+Public vs Private vs Protected in C++?
+What is inheritance?
+What is multiple inheritance?
+What is polymorphism?
+What is a virtual function?
+What is a friend class?
+Overloading vs Overriding?
+What does the new keyword do?
+What is a Reference Variable?
+What is the difference between puts() and printf() in C?
+What is the difference between gets() and scanf() in C?
+What is the difference between a struct and union?
+What is the difference between char *name1 = “Alex” and char name2[] = “Josh”?
+What is fflush for?
+What are the C bitwise operators?
+What is a pointer to a pointer?
+What is a NULL pointer?
+What does the extern keyword in C do?
+What is the difference between ++i and i++?
+Can a program be compiled without a main() function?
+When should you declare a void pointer?
+What is the difference between a variable declaration and a variable definition?
+Does C have overloading?
+What does #define do in C?
+What are macros in C?
+What is a directive?
+What is the difference between typedef versus #define in C?
+What does malloc(), calloc(), realloc(), and free() do?
+What is the difference between #include <filename> and #include “filename”?
+Can you return an address of a local variable within a function in C?
+Does C have objects?
+What are the steps of the Waterfall Process Model?
+What is prototyping?
+What is risk analysis?
+In a requirements document, what are functional and non-functional requirements?
+What is requirements elicitation?
+What is software architecture?
+What is conceptual integrity?
+What are the 4 paradigms of programming languages?
+What is a design pattern?
+What is a Framework?
+What is git checkout?
+What is “check-in” in a version control system?
+In version control, what is a tag?
+What are lists vs tuples vs sets vs dictionaries in python?
+What is void in C?
+What does SED do in linux?
