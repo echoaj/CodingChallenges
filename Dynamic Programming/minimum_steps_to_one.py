@@ -16,6 +16,22 @@ AVAILABLE STEPS:
 ( 2 step)
 '''
 
+# Noah's Solution
+def nsteps(n):
+    if n == 1:      # Base Cse
+        return 0
+
+    if n % 3 == 0 and n % 2 == 0:
+        return min(nsteps(n/3), nsteps(n/2), nsteps(n-1)) + 1
+    elif n % 3 == 0:
+        return min(nsteps(n/3), nsteps(n-1)) + 1
+    elif n % 2 == 0:
+        return min(nsteps(n/2), nsteps(n-1)) + 1
+    else:
+        return nsteps(n-1) + 1
+
+
+# My Solution
 # WITHOUT DP
 def steps(n):
     if n == 1:      # Base Cse
@@ -27,7 +43,6 @@ def steps(n):
         return min(steps(n/2), steps(n-1)) + 1
     else:
         return steps(n-1) + 1
-
 
 
 # WITH DP MEMORIZATION
@@ -50,7 +65,6 @@ def stepsDP(n):
         return memo[n]
 
 
-
 # WITH DP TABULATION
 def stepsTB(n):
     table = [n]*(n+1)
@@ -61,13 +75,11 @@ def stepsTB(n):
             table[i*2] = min(table[i*2], table[i]+1)
         if i*3 <= n:
             table[i*3] = min(table[i*3], table[i]+1)
-    print(table)
     return table[n]
 
 
-
-print(stepsDP(1000))
-print("Done")
-print(steps(100))
-print("Done")
-print(stepsTB(6))
+num = 100
+print(f"Recursion: {num} ->\t", steps(num))
+print(f"Memorization: {num} ->\t", stepsDP(num))
+print(f"Tabulation: {num} ->\t", stepsTB(num))
+print(f"Noah's Solution: {num} ->\t", nsteps(num))

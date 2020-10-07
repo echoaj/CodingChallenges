@@ -63,9 +63,9 @@ def coinchange(coins, amount):
     table[0] = 0
 
     for i in range(amount+1):
-        for j in range(len(coins)):
-            if coins[j] <= i:
-                table[i] = min(table[i], 1+table[i-coins[j]])
+        for coin in coins:
+            if coin <= i:
+                table[i] = min(table[i], 1+table[i-coin])
 
     return table[-1] if table[-1] != amount+1 else -1
 
