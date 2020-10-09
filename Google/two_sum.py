@@ -19,6 +19,12 @@ def two_sum(array, target):
     print(map)
 
 
+
+array = [1, 0, 4, 2, 5, 6, 3, 6, 7]
 # Index: 0  1  2  3  4  5  6  7  8
-two_sum([1, 0, 4, 2, 5, 6, 3, 6, 7], 9)
+target = 9
+
+
+
+two_sum(array, target)
 
