@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/contains_nearby_duplicate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/product_of_array_except_self.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/is_power_of_two.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Google/two_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Google/two_sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/FindSubString.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/FindSubString.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/Palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Palindrome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/Palindrome2.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Palindrome2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/Trapping Rain Water.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/Trapping Rain Water.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/bestTimetoBuyandSellStock.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/bestTimetoBuyandSellStock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/containerWithMostWater.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/containerWithMostWater.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/count_1s_in_binary_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/count_1s_in_binary_number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/equal_number_no_operator.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/equal_number_no_operator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/fibonacci_recursion_dp.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/fibonacci_recursion_dp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/firstDuplicateNumber.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/firstDuplicateNumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/first_nonrepeating_char.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/first_nonrepeating_char.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/generate_parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/generate_parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/group_anagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/group_anagrams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/if_2_words_are_anagrams.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/if_2_words_are_anagrams.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/lengthLongestPath.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/lengthLongestPath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/listenceKeyFormatting.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/listenceKeyFormatting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/reverse_integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/reverse_integer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/reverse_string_in_place.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/reverse_string_in_place.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/valid Parentheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/valid Parentheses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/word_permutations.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/word_permutations.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="product_of_array_except_self.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/product_of_array_except_self.py">
+      <file leaf-file-name="is_power_of_two.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/is_power_of_two.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -58,6 +36,7 @@
     <findStrings>
       <find>data</find>
       <find>fib</find>
+      <find>power</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,10 +88,11 @@
         <option value="$PROJECT_DIR$/Google/two_sum.py" />
         <option value="$PROJECT_DIR$/LeetCode/contains_nearby_duplicate.py" />
         <option value="$PROJECT_DIR$/LeetCode/product_of_array_except_self.py" />
+        <option value="$PROJECT_DIR$/LeetCode/is_power_of_two.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1464" />
     <option name="height" value="1007" />
@@ -123,7 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,6 +129,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +155,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.product_of_array_except_self">
+  <component name="RunManager" selected="Python.is_power_of_two">
     <configuration name="bestTimetoBuyandSellStock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,7 +192,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="minimum_path_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="is_power_of_two" type="PythonConfigurationType" factoryName="Python">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,11 +200,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/minimum_path_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/is_power_of_two.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,9 +247,9 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
+      <item itemvalue="Python.is_power_of_two" />
       <item itemvalue="Python.minimum_steps_to_one" />
       <item itemvalue="Python.bestTimetoBuyandSellStock" />
-      <item itemvalue="Python.minimum_path_sum" />
       <item itemvalue="Python.contains_nearby_duplicate" />
       <item itemvalue="Python.product_of_array_except_self" />
     </list>
@@ -279,7 +259,6 @@
         <item itemvalue="Python.contains_nearby_duplicate" />
         <item itemvalue="Python.bestTimetoBuyandSellStock" />
         <item itemvalue="Python.minimum_steps_to_one" />
-        <item itemvalue="Python.minimum_path_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602101112796</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New challenges">
+      <created>1602232815940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602232815940</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -321,14 +307,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23987292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19905214" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.32551724" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32827586" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.3044776" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32935324" />
@@ -367,7 +353,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished Challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Challenge" />
+    <MESSAGE value="New challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="New challenges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -382,13 +369,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/equal_number_no_operator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Question Generator/question_generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -712,8 +692,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/product_of_array_except_self.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/is_power_of_two.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
