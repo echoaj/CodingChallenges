@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Dynamic Programming/climbingStairs.py" afterDir="false" />
+    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="ClimbingStairs leetcode 746">
+      <change afterPath="$PROJECT_DIR$/Dynamic Programming/Min_Cost_Climbing_Stairs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +14,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="climbingStairs.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Min_Cost_Climbing_Stairs.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dynamic Programming/Min_Cost_Climbing_Stairs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="climbingStairs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dynamic Programming/climbingStairs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -92,10 +101,11 @@
         <option value="$PROJECT_DIR$/LeetCode/JumpGame2.py" />
         <option value="$PROJECT_DIR$/LeetCode/3Sum.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/climbingStairs.py" />
+        <option value="$PROJECT_DIR$/Dynamic Programming/Min_Cost_Climbing_Stairs.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1464" />
     <option name="height" value="1007" />
@@ -158,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.climbingStairs">
+  <component name="RunManager" selected="Python.Min_Cost_Climbing_Stairs">
     <configuration name="3Sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,6 +200,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/JumpGame2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Min_Cost_Climbing_Stairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/Min_Cost_Climbing_Stairs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -249,39 +277,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="product_of_array_except_self" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/product_of_array_except_self.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.is_power_of_two" />
-      <item itemvalue="Python.product_of_array_except_self" />
       <item itemvalue="Python.JumpGame2" />
       <item itemvalue="Python.3Sum" />
       <item itemvalue="Python.containerWithMostWater" />
       <item itemvalue="Python.climbingStairs" />
+      <item itemvalue="Python.Min_Cost_Climbing_Stairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Min_Cost_Climbing_Stairs" />
         <item itemvalue="Python.climbingStairs" />
         <item itemvalue="Python.containerWithMostWater" />
         <item itemvalue="Python.3Sum" />
         <item itemvalue="Python.JumpGame2" />
-        <item itemvalue="Python.product_of_array_except_self" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602457079153</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ClimbingStairs leetcode 746">
+      <created>1602462207543</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602462207543</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -351,13 +368,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19009584" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.29020235" />
+      <window_info anchor="right" id="Run" order="3" weight="0.22470714" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -401,7 +418,8 @@
     <MESSAGE value="is power of two challenge" />
     <MESSAGE value="jumpGame2 Trial" />
     <MESSAGE value="3Sum Implementation&#10;Needs work" />
-    <option name="LAST_COMMIT_MESSAGE" value="3Sum Implementation&#10;Needs work" />
+    <MESSAGE value="ClimbingStairs leetcode 746" />
+    <option name="LAST_COMMIT_MESSAGE" value="ClimbingStairs leetcode 746" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -416,13 +434,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/Palindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Palindrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -748,6 +759,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic Programming/Min_Cost_Climbing_Stairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>
