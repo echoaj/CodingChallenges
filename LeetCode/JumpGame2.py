@@ -30,7 +30,7 @@ def jumpGame2(i):
 # array = [2, 3, 0, 1, 4]
 # array = [1, 1, 1, 1]
 array = [2, 1, 0, 0, 4]
-# array = [1,2]
+#array = [1,2]
 print(jumpGame2(0))
 
 

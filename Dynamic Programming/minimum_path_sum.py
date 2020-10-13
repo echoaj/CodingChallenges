@@ -38,12 +38,12 @@ h = len(grid) - 1
 print(mpsr(0,0))
 print(mpst(grid))
 
+
+
 grid =[[1,3,7,1],
        [1,5,2,1],
        [4,2,9,4],
        [0,1,8,1]]
-
-
 
 w = len(grid[0]) - 1
 h = len(grid) - 1
