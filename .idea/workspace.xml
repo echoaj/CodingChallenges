@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/cloneGraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LRU_Cache/LRU_Cache.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cloneGraph.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/cloneGraph.py">
+      <file leaf-file-name="LRU_Cache.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LRU_Cache/LRU_Cache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="240">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -95,13 +95,13 @@
         <option value="$PROJECT_DIR$/Dynamic Programming/Min_Cost_Climbing_Stairs.py" />
         <option value="$PROJECT_DIR$/LeetCode/SpiralMatrix.py" />
         <option value="$PROJECT_DIR$/LeetCode/cloneGraph.py" />
+        <option value="$PROJECT_DIR$/LRU_Cache/LRU_Cache.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1464" />
-    <option name="height" value="1007" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,6 +109,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,23 +120,12 @@
             <path>
               <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
-              <item name="Dynamic Programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
-              <item name="Google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="LRU_Cache" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +151,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cloneGraph">
+  <component name="RunManager" selected="Python.LRU_Cache">
+    <configuration name="LRU_Cache" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LRU_Cache" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LRU_Cache/LRU_Cache.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Min_Cost_Climbing_Stairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,24 +206,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="climbingStairs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/climbingStairs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="cloneGraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,24 +219,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/cloneGraph.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="containerWithMostWater" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/containerWithMostWater.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,21 +242,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="lru" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LRU_Cache" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LRU_Cache/lru.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.is_power_of_two" />
-      <item itemvalue="Python.containerWithMostWater" />
-      <item itemvalue="Python.climbingStairs" />
       <item itemvalue="Python.Min_Cost_Climbing_Stairs" />
       <item itemvalue="Python.SpiralMatrix" />
       <item itemvalue="Python.cloneGraph" />
+      <item itemvalue="Python.lru" />
+      <item itemvalue="Python.LRU_Cache" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.LRU_Cache" />
+        <item itemvalue="Python.lru" />
         <item itemvalue="Python.cloneGraph" />
         <item itemvalue="Python.SpiralMatrix" />
         <item itemvalue="Python.Min_Cost_Climbing_Stairs" />
-        <item itemvalue="Python.climbingStairs" />
-        <item itemvalue="Python.containerWithMostWater" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602487291162</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cloneGraph implementation">
+      <created>1602535364074</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602535364074</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -378,10 +375,10 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12116317" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09693053" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.2980614" />
+      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.49353796" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -428,7 +425,8 @@
     <MESSAGE value="ClimbingStairs leetcode 746" />
     <MESSAGE value="Implemented 746. Min Cost Climbing Stairs (easy)" />
     <MESSAGE value="Spiral Matrix Needs work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spiral Matrix Needs work" />
+    <MESSAGE value="cloneGraph implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloneGraph implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,13 +441,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/word_permutations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Google/cake_thief.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -642,13 +633,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dynamic Programming/practice.py" />
-    <entry file="file://$PROJECT_DIR$/LRU_Cache/lru.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="22" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code_wars/Are there 2 number in array that equal to a sum.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -773,8 +757,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/cloneGraph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="285">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LRU_Cache/lru.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LRU_Cache/LRU_Cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
