@@ -67,9 +67,10 @@ def stepsDP(n):
 
 # WITH DP TABULATION
 def stepsTB(n):
-    table = [n]*(n+1)
+    table = [n+1]*(n+1)
+
     table[1] = 0      # Base Cse
-    for i in range(1,n):
+    for i in range(1, n):
         table[i+1] = min(table[i+1], table[i]+1)
         if i*2 <= n:
             table[i*2] = min(table[i*2], table[i]+1)
@@ -78,7 +79,7 @@ def stepsTB(n):
     return table[n]
 
 
-num = 100
+num = 6
 print(f"Recursion: {num} ->\t", steps(num))
 print(f"Memorization: {num} ->\t", stepsDP(num))
 print(f"Tabulation: {num} ->\t", stepsTB(num))

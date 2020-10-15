@@ -11,6 +11,9 @@ def mpsr(i , j):
         return grid[i][j]
 
 
+
+
+
 def mpst(grid):
     w = len(grid[0])
     h = len(grid)
@@ -68,7 +71,7 @@ grid = [[7,1,3,5,8,9,9,2,1,9,0,8,3,1,6,6,9,5],
 
 w = len(grid[0]) - 1
 h = len(grid) - 1
-# print(mpsr(0,0))
+print(mpsr(0,0))
 print(mpst(grid))
 
 
