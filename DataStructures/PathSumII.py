@@ -27,4 +27,26 @@ Return:
 """
 
 
+class Node:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
+
+def pathSum(root, sum):
+    pass
+
+
+tree = Node(5)
+tree.left = Node(4)
+tree.left.left = Node(11)
+tree.left.left.left = Node(7)
+tree.left.left.right = Node(2)
+tree.right = Node(8)
+tree.right.left = Node(13)
+tree.right.right = Node(4)
+tree.right.right.left = Node(5)
+tree.right.right.right = Node(1)
+
+pathSum(tree, 22)
