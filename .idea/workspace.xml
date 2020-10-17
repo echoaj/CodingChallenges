@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures/PathSum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/symmetric tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/sum_root_to_leaf_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/find_the_difference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/single_number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/PathSumII.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/PathSumII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/symmetric tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/symmetric tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,21 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="symmetric tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataStructures/symmetric tree.py">
+    <leaf>
+      <file leaf-file-name="single_number.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/single_number.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeTreeBinaryTrees.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/MergeTreeBinaryTrees.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="46" selection-start-line="46" selection-end-line="53" selection-end-column="16" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -56,9 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Question Generator/Viasat_questions" />
-        <option value="$PROJECT_DIR$/Random/first_nonrepeating_char.py" />
-        <option value="$PROJECT_DIR$/Random/equal_number_no_operator.py" />
         <option value="$PROJECT_DIR$/LeetCode/Implementation.py" />
         <option value="$PROJECT_DIR$/Random/count_1s_in_binary_number.py" />
         <option value="$PROJECT_DIR$/LeetCode/Arrays.py" />
@@ -107,6 +96,9 @@
         <option value="$PROJECT_DIR$/DataStructures/PathSumII.py" />
         <option value="$PROJECT_DIR$/DataStructures/PathSum.py" />
         <option value="$PROJECT_DIR$/DataStructures/symmetric tree.py" />
+        <option value="$PROJECT_DIR$/DataStructures/sum_root_to_leaf_numbers.py" />
+        <option value="$PROJECT_DIR$/LeetCode/find_the_difference.py" />
+        <option value="$PROJECT_DIR$/LeetCode/single_number.py" />
       </list>
     </option>
   </component>
@@ -133,6 +125,11 @@
               <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
               <item name="DataStructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,25 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.symmetric tree">
-    <configuration name="MergeTreeBinaryTrees" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/MergeTreeBinaryTrees.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.single_number">
     <configuration name="PathSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,6 +200,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="find_the_difference" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/find_the_difference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="is_power_of_two" type="PythonConfigurationType" factoryName="Python">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,7 +236,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="minimum_path_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="single_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,11 +244,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dynamic Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dynamic Programming/minimum_path_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/single_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,19 +274,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.is_power_of_two" />
-      <item itemvalue="Python.minimum_path_sum" />
-      <item itemvalue="Python.MergeTreeBinaryTrees" />
       <item itemvalue="Python.PathSumII" />
       <item itemvalue="Python.PathSum" />
       <item itemvalue="Python.symmetric tree" />
+      <item itemvalue="Python.find_the_difference" />
+      <item itemvalue="Python.single_number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.single_number" />
+        <item itemvalue="Python.find_the_difference" />
         <item itemvalue="Python.symmetric tree" />
         <item itemvalue="Python.PathSum" />
         <item itemvalue="Python.PathSumII" />
-        <item itemvalue="Python.MergeTreeBinaryTrees" />
-        <item itemvalue="Python.minimum_path_sum" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602740406621</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Symmetric Tree implementation">
+      <created>1602890253089</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602890253089</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView">
@@ -432,10 +436,10 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19224556" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463651" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.20516963" />
+      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.36429724" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -453,21 +457,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15726767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Run" order="3" weight="0.07933972" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.2845771" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -488,7 +492,8 @@
     <MESSAGE value="Linked List Cycle2 implementation" />
     <MESSAGE value="Merge Binary Tree Implementation" />
     <MESSAGE value="Binary Tree Path Sum 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Tree Path Sum 2" />
+    <MESSAGE value="Symmetric Tree implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Symmetric Tree implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -503,21 +508,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/equal_number_no_operator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/Implementation.py" />
-    <entry file="file://$PROJECT_DIR$/code_wars/CamelCaseTo_snake_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code_wars/first_n_smallest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -833,8 +823,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/symmetric tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/sum_root_to_leaf_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/find_the_difference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/single_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
