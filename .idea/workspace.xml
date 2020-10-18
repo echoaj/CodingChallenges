@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures/sum_root_to_leaf_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/find_the_difference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/single_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/palindrome_linked_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/symmetric tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/symmetric tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,12 +13,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="single_number.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/single_number.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="palindrome_linked_list.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataStructures/palindrome_linked_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="900">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList Cycle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList Cycle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -48,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/Implementation.py" />
         <option value="$PROJECT_DIR$/Random/count_1s_in_binary_number.py" />
         <option value="$PROJECT_DIR$/LeetCode/Arrays.py" />
         <option value="$PROJECT_DIR$/codewars/first_n_smallest.py" />
@@ -99,10 +104,11 @@
         <option value="$PROJECT_DIR$/DataStructures/sum_root_to_leaf_numbers.py" />
         <option value="$PROJECT_DIR$/LeetCode/find_the_difference.py" />
         <option value="$PROJECT_DIR$/LeetCode/single_number.py" />
+        <option value="$PROJECT_DIR$/DataStructures/palindrome_linked_list.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="149" />
     <option name="y" value="23" />
     <option name="width" value="1552" />
@@ -114,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,7 +142,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -163,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.single_number">
+  <component name="RunManager" selected="Python.palindrome_linked_list">
     <configuration name="PathSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,24 +183,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/PathSum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="PathSumII" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/PathSumII.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,6 +219,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/is_power_of_two.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="palindrome_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/palindrome_linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,19 +280,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.is_power_of_two" />
-      <item itemvalue="Python.PathSumII" />
       <item itemvalue="Python.PathSum" />
       <item itemvalue="Python.symmetric tree" />
       <item itemvalue="Python.find_the_difference" />
       <item itemvalue="Python.single_number" />
+      <item itemvalue="Python.palindrome_linked_list" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.palindrome_linked_list" />
         <item itemvalue="Python.single_number" />
         <item itemvalue="Python.find_the_difference" />
         <item itemvalue="Python.symmetric tree" />
         <item itemvalue="Python.PathSum" />
-        <item itemvalue="Python.PathSumII" />
       </list>
     </recent_temporary>
   </component>
@@ -420,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602890253089</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Single number implementation">
+      <created>1602922179482</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602922179482</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView">
@@ -433,13 +446,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2463651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22417465" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.36429724" />
+      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.30830672" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -457,22 +470,48 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15726767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Run" order="3" weight="0.07933972" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.2845771" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -493,7 +532,8 @@
     <MESSAGE value="Merge Binary Tree Implementation" />
     <MESSAGE value="Binary Tree Path Sum 2" />
     <MESSAGE value="Symmetric Tree implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symmetric Tree implementation" />
+    <MESSAGE value="Single number implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Single number implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -508,13 +548,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code_wars/first_n_smallest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/reverse_string_in_place.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -779,20 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList Cycle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList Cycle2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/PathSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -845,7 +864,28 @@
     <entry file="file://$PROJECT_DIR$/LeetCode/single_number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList Cycle2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList Cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/palindrome_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
