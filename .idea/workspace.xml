@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures/Convert_Binary_Number_in_a_LinkedList_to_Integer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/Merge_Two_Sorted_Lists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Convert_Binary_Number_in_a_LinkedList_to_Integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Convert_Binary_Number_in_a_LinkedList_to_Integer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Convert_Binary_Number_in_a_LinkedList_to_Integer.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataStructures/Convert_Binary_Number_in_a_LinkedList_to_Integer.py">
+      <file leaf-file-name="Merge_Two_Sorted_Lists.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataStructures/Merge_Two_Sorted_Lists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="540">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -54,7 +55,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/Arrays.py" />
         <option value="$PROJECT_DIR$/codewars/first_n_smallest.py" />
         <option value="$PROJECT_DIR$/codewars/CamelCaseTo_snake_case.py" />
         <option value="$PROJECT_DIR$/Google/array_product.py" />
@@ -105,6 +105,7 @@
         <option value="$PROJECT_DIR$/LeetCode/single_number.py" />
         <option value="$PROJECT_DIR$/DataStructures/palindrome_linked_list.py" />
         <option value="$PROJECT_DIR$/DataStructures/Convert_Binary_Number_in_a_LinkedList_to_Integer.py" />
+        <option value="$PROJECT_DIR$/DataStructures/Merge_Two_Sorted_Lists.py" />
       </list>
     </option>
   </component>
@@ -169,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Convert_Binary_Number_in_a_LinkedList_to_Integer">
+  <component name="RunManager" selected="Python.Merge_Two_Sorted_Lists">
     <configuration name="Convert_Binary_Number_in_a_LinkedList_to_Integer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,6 +184,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/Convert_Binary_Number_in_a_LinkedList_to_Integer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Merge_Two_Sorted_Lists" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/Merge_Two_Sorted_Lists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,39 +279,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="symmetric tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/symmetric tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
       <item itemvalue="Python.is_power_of_two" />
-      <item itemvalue="Python.symmetric tree" />
       <item itemvalue="Python.find_the_difference" />
       <item itemvalue="Python.single_number" />
       <item itemvalue="Python.palindrome_linked_list" />
       <item itemvalue="Python.Convert_Binary_Number_in_a_LinkedList_to_Integer" />
+      <item itemvalue="Python.Merge_Two_Sorted_Lists" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Merge_Two_Sorted_Lists" />
         <item itemvalue="Python.Convert_Binary_Number_in_a_LinkedList_to_Integer" />
         <item itemvalue="Python.palindrome_linked_list" />
         <item itemvalue="Python.single_number" />
         <item itemvalue="Python.find_the_difference" />
-        <item itemvalue="Python.symmetric tree" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602989142407</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="convert binary number in linked list to integer implementation">
+      <created>1603090613403</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1603090613403</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -541,7 +549,8 @@
     <MESSAGE value="Symmetric Tree implementation" />
     <MESSAGE value="Single number implementation" />
     <MESSAGE value="palindrome linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="palindrome linked list" />
+    <MESSAGE value="convert binary number in linked list to integer implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert binary number in linked list to integer implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,13 +565,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/Palindrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Google/string_to_int.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -883,6 +885,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/Convert_Binary_Number_in_a_LinkedList_to_Integer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/palindrome_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -890,10 +899,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/Convert_Binary_Number_in_a_LinkedList_to_Integer.py">
+    <entry file="file://$PROJECT_DIR$/DataStructures/Merge_Two_Sorted_Lists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="540">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>

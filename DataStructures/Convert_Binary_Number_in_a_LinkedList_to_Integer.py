@@ -1,4 +1,6 @@
-
+# LeetCode
+# 1290. Convert Binary Number in a Linked List to Integer
+# Easy
 
 class ListNode:
     def __init__(self, val=0, next=None):
