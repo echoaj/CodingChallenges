@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="max depth in BST implementation">
-      <change afterPath="$PROJECT_DIR$/DataStructures/Invert_Binary_Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/Number_of_BST_Nodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/Same_Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructures/binary_tree_level_order_traversal.py" afterDir="false" />
+    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/DataStructures/binary_tree_maximum_path_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="binary_tree_level_order_traversal.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="binary_tree_level_order_traversal.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructures/binary_tree_level_order_traversal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="480">
+              <caret line="39" selection-start-line="39" selection-end-line="45" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binary_tree_maximum_path_sum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataStructures/binary_tree_maximum_path_sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -52,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Random/valid Parentheses.py" />
         <option value="$PROJECT_DIR$/Random/generate_parentheses.py" />
         <option value="$PROJECT_DIR$/Random/listenceKeyFormatting.py" />
         <option value="$PROJECT_DIR$/Random/lengthLongestPath.py" />
@@ -103,6 +108,7 @@
         <option value="$PROJECT_DIR$/DataStructures/Invert_Binary_Tree.py" />
         <option value="$PROJECT_DIR$/DataStructures/Number_of_BST_Nodes.py" />
         <option value="$PROJECT_DIR$/DataStructures/binary_tree_level_order_traversal.py" />
+        <option value="$PROJECT_DIR$/DataStructures/binary_tree_maximum_path_sum.py" />
       </list>
     </option>
   </component>
@@ -160,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.binary_tree_level_order_traversal">
+  <component name="RunManager" selected="Python.binary_tree_maximum_path_sum">
     <configuration name="Invert_Binary_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,24 +180,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/Invert_Binary_Tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Maximum_depth_of_binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/Maximum_depth_of_binary_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,6 +239,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="binary_tree_maximum_path_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/binary_tree_maximum_path_sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="is_power_of_two" type="PythonConfigurationType" factoryName="Python">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,19 +277,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.is_power_of_two" />
-      <item itemvalue="Python.Maximum_depth_of_binary_tree" />
       <item itemvalue="Python.Number_of_BST_Nodes" />
       <item itemvalue="Python.Same_Tree" />
       <item itemvalue="Python.Invert_Binary_Tree" />
       <item itemvalue="Python.binary_tree_level_order_traversal" />
+      <item itemvalue="Python.binary_tree_maximum_path_sum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.binary_tree_maximum_path_sum" />
         <item itemvalue="Python.binary_tree_level_order_traversal" />
         <item itemvalue="Python.Invert_Binary_Tree" />
         <item itemvalue="Python.Same_Tree" />
         <item itemvalue="Python.Number_of_BST_Nodes" />
-        <item itemvalue="Python.Maximum_depth_of_binary_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603256715807</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Several LeetCode Questions Done">
+      <created>1603312465898</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1603312465898</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -489,7 +502,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17447495" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17689823" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.26009694" />
@@ -497,7 +510,7 @@
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32935324" />
-      <window_info anchor="bottom" id="Debug" order="2" visible="true" weight="0.17517242" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.17517242" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -510,21 +523,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15726767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Run" order="3" weight="0.07933972" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.2845771" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -580,7 +593,8 @@
     <MESSAGE value="merge k sorted lists implementation" />
     <MESSAGE value="Many more LeetCode Questions Complete.  All on Linked Lists." />
     <MESSAGE value="max depth in BST implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="max depth in BST implementation" />
+    <MESSAGE value="Several LeetCode Questions Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Several LeetCode Questions Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -595,13 +609,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/listenceKeyFormatting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Palindrome2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -931,8 +938,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/binary_tree_level_order_traversal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="480">
+          <caret line="39" selection-start-line="39" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/binary_tree_maximum_path_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
