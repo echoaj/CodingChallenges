@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures/Serialize_and_Deserialize_Binary_Tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Serialize_and_Deserialize_Binary_Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Serialize_and_Deserialize_Binary_Tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,29 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="binary_tree_level_order_traversal.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/binary_tree_level_order_traversal.py">
+      <file leaf-file-name="subtree_of_another_tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="26" lean-forward="true" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="495">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Invert_Binary_Tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/Invert_Binary_Tree.py">
+      <file leaf-file-name="Same_Tree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/Same_Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" selection-start-line="49" selection-end-line="55" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serialize_and_Deserialize_Binary_Tree.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataStructures/Serialize_and_Deserialize_Binary_Tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="628">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="43" selection-end-column="13" />
+            <state relative-caret-position="405">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
@@ -67,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Random/listenceKeyFormatting.py" />
         <option value="$PROJECT_DIR$/Random/lengthLongestPath.py" />
         <option value="$PROJECT_DIR$/Random/FindSubString.py" />
         <option value="$PROJECT_DIR$/Random/group_anagrams.py" />
@@ -118,10 +109,11 @@
         <option value="$PROJECT_DIR$/DataStructures/binary_tree_level_order_traversal.py" />
         <option value="$PROJECT_DIR$/DataStructures/binary_tree_maximum_path_sum.py" />
         <option value="$PROJECT_DIR$/DataStructures/Serialize_and_Deserialize_Binary_Tree.py" />
+        <option value="$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -175,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Serialize_and_Deserialize_Binary_Tree">
+  <component name="RunManager" selected="Python.subtree_of_another_tree">
     <configuration name="Invert_Binary_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,24 +181,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/Invert_Binary_Tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Same_Tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/Same_Tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,21 +258,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="subtree_of_another_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.is_power_of_two" />
-      <item itemvalue="Python.Same_Tree" />
       <item itemvalue="Python.Invert_Binary_Tree" />
       <item itemvalue="Python.binary_tree_level_order_traversal" />
       <item itemvalue="Python.binary_tree_maximum_path_sum" />
       <item itemvalue="Python.Serialize_and_Deserialize_Binary_Tree" />
+      <item itemvalue="Python.subtree_of_another_tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.subtree_of_another_tree" />
         <item itemvalue="Python.Serialize_and_Deserialize_Binary_Tree" />
         <item itemvalue="Python.binary_tree_maximum_path_sum" />
         <item itemvalue="Python.binary_tree_level_order_traversal" />
         <item itemvalue="Python.Invert_Binary_Tree" />
-        <item itemvalue="Python.Same_Tree" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +494,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603394184784</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Serialize and Deserialize BT Needs Work">
+      <created>1603481000238</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1603481000239</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -515,13 +514,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17838125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10662359" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.3972311" />
+      <window_info anchor="right" id="Run" order="3" visible="true" weight="0.16801292" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -586,7 +585,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished Challenge" />
     <MESSAGE value="New challenges" />
     <MESSAGE value="is power of two challenge" />
     <MESSAGE value="jumpGame2 Trial" />
@@ -611,7 +609,8 @@
     <MESSAGE value="max depth in BST implementation" />
     <MESSAGE value="Several LeetCode Questions Done" />
     <MESSAGE value="binary tree maximum path sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary tree maximum path sum" />
+    <MESSAGE value="Serialize and Deserialize BT Needs Work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serialize and Deserialize BT Needs Work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -626,13 +625,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/reverse_integer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/word_permutations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -911,13 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/Same_Tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="42" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/Convert_Binary_Number_in_a_LinkedList_to_Integer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -962,8 +947,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/Serialize_and_Deserialize_Binary_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="628">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="43" selection-end-column="13" />
+        <state relative-caret-position="555">
+          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/Same_Tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>

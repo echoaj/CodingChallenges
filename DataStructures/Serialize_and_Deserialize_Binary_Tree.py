@@ -9,39 +9,66 @@ class Node:
         self.left = left
         self.right = right
 
-encrypted = ""
+# encrypted = ""
+# def serialize(root):
+#     global encrypted
+#     if root is None:
+#         return
+#     encrypted += str(root.val) + " "
+#     serialize(root.left)
+#     serialize(root.right)
+#
+#
+#
+# def deserialize():
+#     global encrypted
+#     array = encrypted.split()
+#     print(array)
+#     bt = Node(int(array[0]))
+#     for i in range(1, len(array)):
+#         val = int(array[i])
+#         cur = bt
+#         while True:
+#             if val <= cur.val:
+#                 if cur.left is None:
+#                     cur.left = Node(val)
+#                     break
+#                 else:
+#                     cur = cur.left
+#             else:
+#                 if cur.right is None:
+#                     cur.right = Node(val)
+#                     break
+#                 else:
+#                     cur = cur.right
+#     return bt
+
+# Answer
 def serialize(root):
-    global encrypted
-    if root is None:
-        return
-    encrypted += str(root.val) + " "
-    serialize(root.left)
-    serialize(root.right)
+    def doit(node):
+        if node:
+            vals.append(str(node.val))
+            doit(node.left)
+            doit(node.right)
+        else:
+            vals.append('#')
 
+    vals = []
+    doit(root)
+    return ' '.join(vals)
 
+def deserialize(data):
+    def doit():
+        val = next(vals)
+        if val == '#':
+            return None
+        node = Node(int(val))
+        node.left = doit()
+        node.right = doit()
+        return node
 
-def deserialize():
-    global encrypted
-    array = encrypted.split()
-    print(array)
-    bt = Node(int(array[0]))
-    for i in range(1, len(array)):
-        val = int(array[i])
-        cur = bt
-        while True:
-            if val <= cur.val:
-                if cur.left is None:
-                    cur.left = Node(val)
-                    break
-                else:
-                    cur = cur.left
-            else:
-                if cur.right is None:
-                    cur.right = Node(val)
-                    break
-                else:
-                    cur = cur.right
-    return bt
+    vals = iter(data.split())
+    return doit()
 
 
 def printree(tree):
@@ -61,6 +88,7 @@ tree.right.left = Node(6)
 tree.right.right = Node(9)
 
 printree(tree)
-serialize(tree)
-new = deserialize()
+string = serialize(tree)
+print(string)
+new = deserialize(string)
 printree(new)
