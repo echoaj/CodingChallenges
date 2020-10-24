@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Serialize_and_Deserialize_Binary_Tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Serialize_and_Deserialize_Binary_Tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="subtree_of_another_tree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="195">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -27,7 +26,7 @@
       <file leaf-file-name="Same_Tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DataStructures/Same_Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="532">
               <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
@@ -501,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603481000239</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Subtree of another tree implementation">
+      <created>1603488106362</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1603488106362</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -517,10 +523,10 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10662359" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="right" id="Run" order="3" visible="true" weight="0.16801292" />
+      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.40791598" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -538,21 +544,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15726767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Run" order="3" weight="0.07933972" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.2845771" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -585,7 +591,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New challenges" />
     <MESSAGE value="is power of two challenge" />
     <MESSAGE value="jumpGame2 Trial" />
     <MESSAGE value="3Sum Implementation&#10;Needs work" />
@@ -610,7 +615,8 @@
     <MESSAGE value="Several LeetCode Questions Done" />
     <MESSAGE value="binary tree maximum path sum" />
     <MESSAGE value="Serialize and Deserialize BT Needs Work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Serialize and Deserialize BT Needs Work" />
+    <MESSAGE value="Subtree of another tree implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subtree of another tree implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -954,15 +960,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/Same_Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="532">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/subtree_of_another_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="195">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>

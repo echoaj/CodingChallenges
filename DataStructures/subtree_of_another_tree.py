@@ -21,7 +21,7 @@ Given tree t:
 
 Return true, because t has the same structure and node values with a subtree of s.
 """
-
+#  Needs Work
 
 class Node:
     def __init__(self, val=0, left=None, right=None):
@@ -30,8 +30,31 @@ class Node:
         self.right = right
 
 
+same = False
 def is_subtree(s, t):
-    return True
+    global same
+    if s is None:
+        return
+    if s.val == t.val:
+        same = same_tree(s, t)
+        return same
+    if same is False:
+        is_subtree(s.left, t)
+        is_subtree(s.right, t)
+    if same:
+        return True
+    else:
+        return False
+
+
+def same_tree(s, t):
+    if not s and not t:
+        return True
+    elif not s or not t or s.val != t.val:
+        return False
+
+    return same_tree(s.left, t.left) and same_tree(s.right, t.right)
+
 
 
 tree1 = Node(3)
@@ -45,3 +68,18 @@ tree2.left = Node(1)
 tree2.right = Node(2)
 
 print(is_subtree(tree1, tree2))
+
+# Solution
+"""
+def isMatch(self, s, t):
+    if not(s and t):
+        return s is t
+    return (s.val == t.val and 
+            self.isMatch(s.left, t.left) and 
+            self.isMatch(s.right, t.right))
+
+def isSubtree(self, s, t):
+    if self.isMatch(s, t): return True
+    if not s: return False
+    return self.isSubtree(s.left, t) or self.isSubtree(s.right, t)
+"""
