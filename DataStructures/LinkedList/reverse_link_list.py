@@ -21,17 +21,17 @@ def reverseList(head):
 
     return head
 
-'''
-Better Solution
-def reverseList(self, head):
+
+# Better Solution
+def reverseList(head):
     prev = None
-    while head:
+    while head.next:
         curr = head
         head = head.next
         curr.next = prev
         prev = curr
-    return prev
-'''
+    return head
+
 
 
 l1 = ListNode(1, ListNode(2, ListNode(4, ListNode(5))))
