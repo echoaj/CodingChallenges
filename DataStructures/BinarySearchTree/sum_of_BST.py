@@ -1,4 +1,9 @@
 '''
+LeetCode
+129. Sum Root to Leaf Numbers
+Medium
+
+
 Input: [4,9,0,5,1]
     4
    / \
@@ -6,7 +11,12 @@ Input: [4,9,0,5,1]
  / \
 5   1
 
-sum is 4+9+0+5+1 = 19
+Output: 1026
+Explanation:
+The root-to-leaf path 4->9->5 represents the number 495.
+The root-to-leaf path 4->9->1 represents the number 491.
+The root-to-leaf path 4->0 represents the number 40.
+Therefore, sum = 495 + 491 + 40 = 1026.
 '''
 
 
@@ -16,15 +26,15 @@ class Node:
         self.left = left
         self.right = right
 
-def sumTree(root):
+def sumNumbers(root):
     if root is None:
         return 1
 
     if root.left is None and root.right is None:
         return root.val
 
-    left = sumTree(root.left) * 1
-    right = sumTree(root.right) * 1
+    left = sumNumbers(root.left) * 1
+    right = sumNumbers(root.right) * 1
 
     return left + right + root.val
 
@@ -35,4 +45,4 @@ tree.left = Node(9)
 tree.left.left = Node(5)
 tree.left.right = Node(1)
 tree.right = Node(0)
-print(sumTree(tree))
+print(sumNumbers(tree))

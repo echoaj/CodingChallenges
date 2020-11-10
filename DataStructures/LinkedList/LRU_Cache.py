@@ -27,7 +27,6 @@ class LRU:
             self.add(node)                  # add it to front of linked list
             return node.val                 # return value of node
 
-
     def put(self, key, value):
         if key in self.map:                 # if we are overriding a node
             node = self.map[key]            # get node from map
@@ -43,7 +42,6 @@ class LRU:
             self.add(new_node)
             self.map[key] = new_node
 
-
     # Puts node at front
     def add(self, node):
         head_next = self.head.next          #                  [hn] -> head.next
@@ -51,7 +49,6 @@ class LRU:
         head_next.prev = node               #         node  <- [hn]
         self.head.next = node               # [h]  -> node
         node.prev = self.head               # [h]  <- node
-
 
     # Remove node from back
     def remove(self, node):
