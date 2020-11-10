@@ -1,4 +1,3 @@
-
 '''
 LeetCode
 129. Sum Root to Leaf Numbers
@@ -30,15 +29,22 @@ class Node:
 
 def sumNumbers(root):
     if root is None:
-        return 1
+        return None
 
-    if root.left is None and root.right is None:
-        return root.val
+    matrix = []
+    queue = [[root]]
 
-    left = sumNumbers(root.left) * 1
-    right = sumNumbers(root.right) * 1
+    while root and queue:
+        top = queue.pop()
+        adj = []
+        for node in top:
+            if node.left:
+                adj.append(node.left)
+            if node.right:
+                adj.append(node.right)
 
-    return left + right + root.val
+
+    print(matrix)
 
 
 tree = Node(4)
@@ -46,4 +52,7 @@ tree.left = Node(9)
 tree.left.left = Node(5)
 tree.left.right = Node(1)
 tree.right = Node(0)
+
+
+
 print(sumNumbers(tree))
