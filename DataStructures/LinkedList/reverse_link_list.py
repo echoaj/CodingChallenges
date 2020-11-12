@@ -25,15 +25,16 @@ def reverseList(head):
 # Better Solution
 def reverseList(head):
     prev = None
-    while head.next:
+    # tail = head
+    while head:
         curr = head
         head = head.next
         curr.next = prev
         prev = curr
-    return head
+    return prev
 
 
 
 l1 = ListNode(1, ListNode(2, ListNode(4, ListNode(5))))
 node = reverseList(l1)
-print(node.val)
+print(node.next.val)
