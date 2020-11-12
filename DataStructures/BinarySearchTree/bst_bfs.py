@@ -1,11 +1,11 @@
 
-'''
+"""
      9
    /  \
   7   15
  /   /  \
 3  11   20
-'''
+"""
 
 
 class Node:
@@ -17,7 +17,7 @@ class Node:
 
 def bfs(root):
     queue = [root]
-    visited = list()
+    visited = []
     visited.append(root.data)
     while queue:
         top = queue.pop(0)
@@ -41,7 +41,7 @@ bfs(tree)
 
 def bfs(graph, start):
     queue = [start]
-    visited = list()
+    visited = []
     visited.append(start)
     while queue:
         top = queue.pop(0)
@@ -59,3 +59,4 @@ d = {9: [7, 15],
      20: []}
 
 bfs(d, 9)
+
