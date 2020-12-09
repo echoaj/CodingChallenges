@@ -15,7 +15,6 @@
 # 10 // 10 = 10
 
 
-
 def reach_one(n):
     if n == 1:
         return True
@@ -28,5 +27,4 @@ def reach_one(n):
 
 for i in range(500):
     print(i, reach_one(i))
-
 
