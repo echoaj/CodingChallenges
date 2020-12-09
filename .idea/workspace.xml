@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Random/Count_3s.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/Can_Reach_Zero.py" beforeDir="false" afterPath="$PROJECT_DIR$/Random/Can_Reach_Zero.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,20 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Can_Reach_Zero.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Random/Can_Reach_Zero.py">
+      <file leaf-file-name="Letter_Combinations_of_a_Phone_Number.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Count_3s.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Random/Count_3s.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="285">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -64,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/is_power_of_two.py" />
         <option value="$PROJECT_DIR$/LeetCode/3Sum.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/climbingStairs.py" />
         <option value="$PROJECT_DIR$/Dynamic Programming/Min_Cost_Climbing_Stairs.py" />
@@ -115,10 +104,11 @@
         <option value="$PROJECT_DIR$/LeetCode/Happy_Number.py" />
         <option value="$PROJECT_DIR$/Random/Count_3s.py" />
         <option value="$PROJECT_DIR$/Random/Can_Reach_Zero.py" />
+        <option value="$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
@@ -139,7 +129,7 @@
             <path>
               <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
-              <item name="Random" type="462c0819:PsiDirectoryNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Count_3s">
+  <component name="RunManager" selected="Python.Letter_Combinations_of_a_Phone_Number">
     <configuration name="Can_Reach_Zero" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,6 +218,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Letter_Combinations_of_a_Phone_Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Shortest_Path_in_Binary_Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,24 +249,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Shortest_Path_in_Binary_Matrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="graph_and_bst_level_order_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures/BinarySearchTree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/BinarySearchTree/graph_and_bst_level_order_traversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,19 +274,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.is_power_of_two" />
-      <item itemvalue="Python.graph_and_bst_level_order_traversal" />
       <item itemvalue="Python.Shortest_Path_in_Binary_Matrix" />
       <item itemvalue="Python.Happy_Number" />
       <item itemvalue="Python.Can_Reach_Zero" />
       <item itemvalue="Python.Count_3s" />
+      <item itemvalue="Python.Letter_Combinations_of_a_Phone_Number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Letter_Combinations_of_a_Phone_Number" />
         <item itemvalue="Python.Count_3s" />
         <item itemvalue="Python.Can_Reach_Zero" />
         <item itemvalue="Python.Happy_Number" />
         <item itemvalue="Python.Shortest_Path_in_Binary_Matrix" />
-        <item itemvalue="Python.graph_and_bst_level_order_traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -598,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607473020999</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Count 3 recursion">
+      <created>1607490130115</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1607490130115</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -611,18 +608,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1629393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.028594123" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.33546326" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.27034482" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32935324" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.2846154" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3324138" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -635,21 +632,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="right" id="Run" order="3" weight="0.39256865" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.17517242" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -682,7 +679,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Symmetric Tree implementation" />
     <MESSAGE value="Single number implementation" />
     <MESSAGE value="palindrome linked list" />
     <MESSAGE value="convert binary number in linked list to integer implementation" />
@@ -707,7 +703,8 @@
     <MESSAGE value="Shortes path bin matrix&#10;Needs Work" />
     <MESSAGE value="happy number" />
     <MESSAGE value="Can Reach 0 Recursive problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can Reach 0 Recursive problem" />
+    <MESSAGE value="Count 3 recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Count 3 recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -718,17 +715,10 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="35" />
+      <option name="time" value="36" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LeetCode/containerWithMostWater.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/3Sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1057,15 +1047,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Random/Can_Reach_Zero.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Random/Count_3s.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
