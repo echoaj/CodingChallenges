@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="Shortes path bin matrix&#10;Needs Work">
-      <change afterPath="$PROJECT_DIR$/LeetCode/Happy_Number.py" afterDir="false" />
+    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Random/Can_Reach_Zero.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Happy_Number.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Happy_Number.py">
+      <file leaf-file-name="Can_Reach_Zero.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Random/Can_Reach_Zero.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -54,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/contains_nearby_duplicate.py" />
         <option value="$PROJECT_DIR$/LeetCode/product_of_array_except_self.py" />
         <option value="$PROJECT_DIR$/LeetCode/is_power_of_two.py" />
         <option value="$PROJECT_DIR$/LeetCode/3Sum.py" />
@@ -105,10 +104,11 @@
         <option value="$PROJECT_DIR$/DataStructures/BinarySearchTree/graph_and_bst_level_order_traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/Shortest_Path_in_Binary_Matrix.py" />
         <option value="$PROJECT_DIR$/LeetCode/Happy_Number.py" />
+        <option value="$PROJECT_DIR$/Random/Can_Reach_Zero.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="727" />
@@ -119,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,20 +126,11 @@
               <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
-              <item name="Dynamic Programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
-              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +158,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Happy_Number">
+  <component name="RunManager" selected="Python.Can_Reach_Zero">
+    <configuration name="Can_Reach_Zero" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Interview_Prep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Random" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Random/Can_Reach_Zero.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Happy_Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Interview_Prep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,24 +208,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Shortest_Path_in_Binary_Matrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="binary_tree_level_order_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Interview_Prep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DataStructures/BinarySearchTree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataStructures/BinarySearchTree/binary_tree_level_order_traversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,19 +269,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.is_power_of_two" />
-      <item itemvalue="Python.binary_tree_level_order_traversal" />
       <item itemvalue="Python.bst_bfs" />
       <item itemvalue="Python.graph_and_bst_level_order_traversal" />
       <item itemvalue="Python.Shortest_Path_in_Binary_Matrix" />
       <item itemvalue="Python.Happy_Number" />
+      <item itemvalue="Python.Can_Reach_Zero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Can_Reach_Zero" />
         <item itemvalue="Python.Happy_Number" />
         <item itemvalue="Python.Shortest_Path_in_Binary_Matrix" />
         <item itemvalue="Python.graph_and_bst_level_order_traversal" />
         <item itemvalue="Python.bst_bfs" />
-        <item itemvalue="Python.binary_tree_level_order_traversal" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605250614976</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="happy number">
+      <created>1605429333495</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1605429333496</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -592,13 +589,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="727" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15751211" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16134185" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.36914378" />
+      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.33546326" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -616,21 +613,21 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
       <window_info anchor="right" id="Run" order="3" weight="0.39256865" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.17517242" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3273632" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -663,7 +660,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge Binary Tree Implementation" />
     <MESSAGE value="Binary Tree Path Sum 2" />
     <MESSAGE value="Symmetric Tree implementation" />
     <MESSAGE value="Single number implementation" />
@@ -688,7 +684,8 @@
     <MESSAGE value="BST BFS" />
     <MESSAGE value="level order traversals" />
     <MESSAGE value="Shortes path bin matrix&#10;Needs Work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shortes path bin matrix&#10;Needs Work" />
+    <MESSAGE value="happy number" />
+    <option name="LAST_COMMIT_MESSAGE" value="happy number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -703,27 +700,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Google/two_sum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/Arrays.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/contains_nearby_duplicate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/is_power_of_two.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -788,13 +764,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LRU_Cache/lru.py" />
-    <entry file="file://$PROJECT_DIR$/Dynamic Programming/minimum_steps_to_one.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DataStructures/BinarySearchTree/symmetric tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1049,8 +1018,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/Happy_Number.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dynamic Programming/minimum_steps_to_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="68" selection-start-line="68" selection-end-line="78" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Arrays.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Palindrome.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Random/Can_Reach_Zero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
