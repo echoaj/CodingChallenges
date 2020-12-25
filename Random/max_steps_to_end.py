@@ -8,12 +8,17 @@ you would move forward by.
 '''
 
 def max_steps(x):
-    if x >= len(array):
+    length = len(array)
+    if x >= length:
         return 0
     num = array[x]
-    result1 = max_steps(num+x+1)
     result2 = max_steps(num+x+2)
-    return max(result1, result2) + 1
+    result1 = max_steps(num+x+1)
+    total =  max(result1, result2) + 1
+    return total
 
-array = [0,9,0,0,3,0,5,1,2,0,1,0]
-print(max_steps(0))
+array = [0, 9, 0, 0, 3, 0, 5, 1, 2, 0, 1, 0]
+answer = max_steps(0)
+
+print(answer)
+
