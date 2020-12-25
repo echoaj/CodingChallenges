@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,12 +12,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Letter_Combinations_of_a_Phone_Number.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py">
+    <leaf>
+      <file leaf-file-name="Can_Reach_Zero.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Random/Can_Reach_Zero.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Count_3s.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Random/Count_3s.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -102,16 +110,16 @@
         <option value="$PROJECT_DIR$/DataStructures/BinarySearchTree/graph_and_bst_level_order_traversal.py" />
         <option value="$PROJECT_DIR$/LeetCode/Shortest_Path_in_Binary_Matrix.py" />
         <option value="$PROJECT_DIR$/LeetCode/Happy_Number.py" />
-        <option value="$PROJECT_DIR$/Random/Count_3s.py" />
         <option value="$PROJECT_DIR$/Random/Can_Reach_Zero.py" />
         <option value="$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py" />
+        <option value="$PROJECT_DIR$/Random/Count_3s.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="727" />
+    <option name="width" value="1170" />
+    <option name="height" value="1007" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,6 +138,11 @@
               <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interview_Prep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interview_Prep" type="462c0819:PsiDirectoryNode" />
+              <item name="Random" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -595,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607490130115</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Letter Combinations of a Phone Number Implementation">
+      <created>1607500069749</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1607500069749</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -608,10 +628,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1170" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.028594123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38642296" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.27034482" />
@@ -679,7 +699,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Single number implementation" />
     <MESSAGE value="palindrome linked list" />
     <MESSAGE value="convert binary number in linked list to integer implementation" />
     <MESSAGE value="Merge Two Lists implementation" />
@@ -704,7 +723,8 @@
     <MESSAGE value="happy number" />
     <MESSAGE value="Can Reach 0 Recursive problem" />
     <MESSAGE value="Count 3 recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Count 3 recursion" />
+    <MESSAGE value="Letter Combinations of a Phone Number Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Letter Combinations of a Phone Number Implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1045,24 +1065,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Random/Can_Reach_Zero.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Random/Count_3s.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/Letter_Combinations_of_a_Phone_Number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="630">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
