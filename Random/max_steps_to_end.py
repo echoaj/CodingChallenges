@@ -9,17 +9,16 @@ you would move forward by.
 
 """
 
-def max_steps(x):
+def max_steps_to_end(x):
     if x >= len(array):
         return 0
     num = array[x]
-    result1 = max_steps(num+x+1)
-    result2 = max_steps(num+x+2)
-    total =  max(result1, result2) + 1
-    return total
+    result1 = max_steps_to_end(num+x+1)
+    result2 = max_steps_to_end(num+x+2)
+    return max(result1, result2) + 1
 
 array = [0,9,0,0,3,0,5,1,2,0,1,0]
-answer = max_steps(0)
+answer = max_steps_to_end(0)
 
 print(answer)
 
