@@ -17,3 +17,6 @@ def max_steps(x):
 
 array = [0,9,0,0,3,0,5,1,2,0,1,0]
 print(max_steps(0))
+
+# The end
+
