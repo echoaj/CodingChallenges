@@ -6,3 +6,11 @@ do not have a limit.  Count the maximum steps it would
 take to get to the end.  The numbers represent how much
 you would move forward by.
 '''
+
+def max_steps(x):
+    if x >= len(array):
+        return 1
+    return max_steps(x+1)
+
+array = [0,9,0,0,3,0,5,1,2,0,1,0]
+max_steps(0)
