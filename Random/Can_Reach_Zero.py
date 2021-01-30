@@ -25,6 +25,5 @@ def reach_one(n):
     return reach_one(n // divisor)
 
 
-for i in range(500):
+for i in range(100):
     print(i, reach_one(i))
-
