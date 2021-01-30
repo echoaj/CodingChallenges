@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Random/max_num.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/Can_Reach_Zero.py" beforeDir="false" afterPath="$PROJECT_DIR$/Random/Can_Reach_Zero.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -640,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608881985646</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="fixed bug">
+      <created>1609295600997</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1609295600997</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView">
@@ -659,7 +664,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18062139" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32935324" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.26965174" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.26965174" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32689655" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -724,7 +729,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="convert binary number in linked list to integer implementation" />
     <MESSAGE value="Merge Two Lists implementation" />
     <MESSAGE value="Reverse linked List Implementation" />
     <MESSAGE value="merge k sorted lists implementation" />
@@ -749,7 +753,8 @@
     <MESSAGE value="Count 3 recursion" />
     <MESSAGE value="Letter Combinations of a Phone Number Implementation" />
     <MESSAGE value="mixed around the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="mixed around the code" />
+    <MESSAGE value="fixed bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
