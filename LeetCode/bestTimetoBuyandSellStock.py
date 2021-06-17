@@ -45,4 +45,5 @@ def stock():
         profit = max(i-lowest, profit)
     return profit
 
+
 print(stock())
