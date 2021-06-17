@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/bestTimetoBuyandSellStock.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/bestTimetoBuyandSellStock.py" afterDir="false" />
-    </list>
+    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +14,8 @@
       <file leaf-file-name="bestTimetoBuyandSellStock.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LeetCode/bestTimetoBuyandSellStock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="491">
+              <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -300,13 +297,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569828085657</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Finished Challenge">
-      <created>1602025566401</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1602025566401</updated>
     </task>
     <task id="LOCAL-00002" summary="Finished Challenge">
       <created>1602101112796</created>
@@ -644,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611992234040</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="fixed conflict">
+      <created>1623910147566</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1623910147570</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TodoView">
@@ -658,16 +655,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18030183" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32935324" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" visible="true" weight="0.2689655" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32636815" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.13820492" side_tool="true" visible="true" weight="0.74068964" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49960285" weight="0.2689655" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49960285" weight="0.32551724" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32935324" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.86179507" visible="true" weight="0.74068964" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3324138" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1110,8 +1106,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/bestTimetoBuyandSellStock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="491">
+          <caret line="33" column="47" lean-forward="true" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
         </state>
       </provider>
     </entry>
