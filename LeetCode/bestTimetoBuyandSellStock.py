@@ -31,15 +31,15 @@ def bestTimetoBuyandSellStock(prices):
     return profit
 
 
-print(bestTimetoBuyandSellStock([7,1]))
+print(bestTimetoBuyandSellStock([7,1,5,3,6,4]))
 
 
 # Noah's solution
 # Issue of [7,1] returns 5
 def stock():
     array = [7,1,5,3,6,4]
-    lowest = array[0]
     profit = 0
+    lowest = array[0]
     for i in array:
         lowest = min(i, lowest)
         profit = max(i-lowest, profit)
