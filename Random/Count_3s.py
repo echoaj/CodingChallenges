@@ -39,4 +39,4 @@ def count3s(n):
     return count3s(n//3) + threes
 
 
-print(count3s(500))
+print(count3s(100))

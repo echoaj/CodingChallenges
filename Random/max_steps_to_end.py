@@ -18,5 +18,6 @@ def max_steps(x):
     total =  max(result1, result2) + 1
     return total
 
+
 array = [0, 9, 0, 0, 3, 0, 5, 1, 2, 0, 1, 0]
 print(max_steps(0))
