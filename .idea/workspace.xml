@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Random/Add_Up_To_Limit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Random/greatest_common_factor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/Count_3s.py" beforeDir="false" afterPath="$PROJECT_DIR$/Random/Count_3s.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Random/max_steps_to_end.py" beforeDir="false" afterPath="$PROJECT_DIR$/Random/max_steps_to_end.py" afterDir="false" />
-    </list>
+    <list default="true" id="ac63ca32-3f92-41e8-bd54-bff7a39efec3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Add_Up_To_Limit.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Random/Add_Up_To_Limit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +41,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LeetCode/JumpGame2.py" />
         <option value="$PROJECT_DIR$/LeetCode/DataStructures/LinkedList Cycle.py" />
         <option value="$PROJECT_DIR$/DataStructures/LinkedList Cycle.py" />
         <option value="$PROJECT_DIR$/DataStructures/LinkedList Cycle2.py" />
@@ -108,6 +91,7 @@
         <option value="$PROJECT_DIR$/Random/Count_3s.py" />
         <option value="$PROJECT_DIR$/Random/greatest_common_factor.py" />
         <option value="$PROJECT_DIR$/Random/Add_Up_To_Limit.py" />
+        <option value="$PROJECT_DIR$/Random/mult_combos.py" />
       </list>
     </option>
   </component>
@@ -662,16 +646,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19936457" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32935324" />
-      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.50436854" side_tool="true" visible="true" weight="0.29655173" />
+      <window_info anchor="bottom" id="Event Log" order="6" sideWeight="0.14138205" side_tool="true" visible="true" weight="0.29655173" />
       <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49563146" weight="0.32551724" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49960285" weight="0.32551724" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32935324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.8602065" weight="0.21517241" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.85861796" weight="0.21517241" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.3324138" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -772,13 +755,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DataStructures/BinarySearchTree/symmetric tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/find_the_difference.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1116,6 +1092,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Random/mult_combos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
