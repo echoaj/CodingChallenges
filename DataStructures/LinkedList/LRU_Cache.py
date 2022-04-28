@@ -51,7 +51,8 @@ class LRU:
         node.prev = self.head               # [h]  <- node
 
     # Remove node from back
-    def remove(self, node):
+    @staticmethod
+    def remove(node):
         prev_node = node.prev
         next_node = node.next
         prev_node.next = next_node
@@ -59,10 +60,19 @@ class LRU:
 
 
 lru = LRU(3)
-lru.put(5,5)
-lru.put(8,8)
-lru.put(2,2)
-lru.put(7,7)
+lru.put(5, 5)
+lru.put(8, 8)
+lru.put(2, 2)
+lru.put(7, 7)
 print(lru.get(4))
 print(lru.get(5))
 print(lru.get(2))
+
+
+class Test:
+    def __int__(self):
+        self.x = None
+
+
+t = Test()
+print(t.x)
