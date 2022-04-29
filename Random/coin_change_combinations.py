@@ -26,7 +26,7 @@ def change(temp, num, i):
     change(temp, num, 2)
 
 
-change([0,0,0], target, 0)
+change([0, 0, 0], target, 0)
 
 print("------------------ Result ------------------")
 print("Target  = " + str(target))
@@ -45,3 +45,46 @@ for com in combos:
     print(options, end="  =  ")
     print(com_added, end="  ->  ")
     print(com_sum)
+
+
+########################################### Noah Solution ###########################################
+
+class coinCalculator:
+
+    def __init__(self):
+        self.coins = [25, 10, 5, 2];
+        self.value = None
+
+    #sums one list in terms of coins
+    def sumArray(self,array):
+        sum=0
+        for i,n in enumerate(array):
+            sum+=self.coins[i]*n
+        return sum
+
+    # iteration 1
+    def findCombos(self,value):
+        # sets up the starter array
+        arr=[]
+        starter=[0 for i in range(len(self.coins))]
+        arr=self.step(arr,starter,value)
+        print(arr)
+
+    def step(self, arr,curArr,value):
+        if self.sumArray(curArr)==value:
+
+            # change for a lower time complexity: Local Coins!
+            if not curArr in arr:#This part is for duplicates but is very inefficiant.
+                arr.append(curArr)
+            return arr
+
+        for i,n in enumerate(self.coins):
+            if n+self.sumArray(curArr)<=value:
+                nextArr=curArr.copy()
+                nextArr[i]+=1
+                arr=self.step(arr,nextArr,value)
+
+        return arr
+
+c = coinCalculator()
+c.findCombos(20)
