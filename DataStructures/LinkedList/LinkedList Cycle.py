@@ -16,5 +16,5 @@ def has_cycle(head):
 
     return True
 
-# You could also used a hashmap to store
+# You could also use a hashmap to store
 # nodes and check if duplicate node was found.
