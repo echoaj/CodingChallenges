@@ -17,7 +17,8 @@ map = {'0': [''],
        '8': ['t', 'u', 'v'],
        '9': ['w', 'x', 'y', 'z']}
 
-digits = "32"
+digits = "324"
+
 
 def phone(i=0):
     if digits == "":
@@ -36,5 +37,6 @@ def phone(i=0):
             perm.append(a+b)
             j += 1
     return perm
+
 
 print(phone())

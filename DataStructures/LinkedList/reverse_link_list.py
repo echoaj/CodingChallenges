@@ -34,7 +34,7 @@ def reverseList(head):
     return prev
 
 
-
 l1 = ListNode(1, ListNode(2, ListNode(4, ListNode(5))))
 node = reverseList(l1)
 print(node.next.val)
+

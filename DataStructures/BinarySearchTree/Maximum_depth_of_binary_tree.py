@@ -31,5 +31,4 @@ tree.left = Node(9)
 tree.right = Node(20)
 tree.right.left = Node(15)
 tree.right.right = Node(7)
-
 print(max_depth(tree))
