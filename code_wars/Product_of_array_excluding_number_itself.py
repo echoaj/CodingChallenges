@@ -1,7 +1,8 @@
 from functools import reduce
-#google interview question
+
 
 '''
+Google Interview Question
 given an array of numbers, replace each number with the product of
 all the numbers in the array except the number itself without using division.
 '''
