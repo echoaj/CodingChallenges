@@ -16,6 +16,7 @@ while i < size:
 print(array)
 '''
 
+
 def move_zeros(array):
     i = 0
     size = len(array)
@@ -25,7 +26,7 @@ def move_zeros(array):
             array.append(0)
             size = len(array)
         i += 1
-    return(array)
+    return array
 
 
 print(move_zeros([0,False,0.0,9]))
