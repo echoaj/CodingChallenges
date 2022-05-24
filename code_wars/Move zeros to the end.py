@@ -20,7 +20,7 @@ def move_zeros(array):
     i = 0
     size = len(array)
     while i < size:
-        if array[i] is 0 or array[i] is 0.0:
+        if array[i] == 0 or array[i] == 0.0:
             del array[i]
             array.append(0)
             size = len(array)
