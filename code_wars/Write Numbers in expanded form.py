@@ -1,19 +1,15 @@
-#codewars.com
-
-import math
+# codewars.com
 
 
 def expanded_form(num):
-    num = str(num)
-    quantity = len(num) - 1
-    digits = []
-    for i in num:
-        if i == '0':
-            quantity -= 1
-        if quantity >= 0 and i != '0':
-            digits.append(i + '0' * quantity)
-            quantity -= 1
-    return " + ".join(digits)
+    count = 1
+    expanded = " "
+    while num > 10:
+        expanded = "0" * count + " + " +str(num % 10) + expanded
+        num //= 10
+        count += 1
+    expanded = str(num % 10) + expanded
+    return expanded
 
 
 print(expanded_form(2745))
