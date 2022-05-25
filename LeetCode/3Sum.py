@@ -1,4 +1,4 @@
-# LeetCode
+# LeetCode 15
 # Medium
 # O(n^2) solution
 
