@@ -14,14 +14,19 @@ Your solution must use only constant extra space.
 
 def two_sum_ii(nums, target):
     # store the inverse
-    pairs = {}
+    l = 0
+    r = len(nums) - 1
 
-    for i, n in enumerate(nums):
-        if n in pairs:
-            return [pairs[n] + 1, i + 1]
-        inverse = target - n
-        pairs[inverse] = i
+    while l < r:
+        total = nums[l]+nums[r]
+        if total > target:
+            r -= 1
+        elif total < target:
+            l += 1
+        else:
+            return [l+1, r+1]
+
     return []
 
 
-print(two_sum_ii([3, 2, 4], 6))
+print(two_sum_ii([0, 2, 7, 8, 11, 15], 9))
