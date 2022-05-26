@@ -16,7 +16,6 @@ def cloneGraph(map, node):
     return copy
 
 
-
 graph = Node(1, [Node(2, [Node(4), Node(5)]), Node(3, [Node(7), Node(4)])])
 print(graph.neighbors[0].neighbors[1].val)
 
