@@ -1,4 +1,4 @@
-# generate parentheses perumation
+# generate parentheses permutaion
 
 def generate_parentheses(string, left, right, n):
     if len(string) == n*2:
