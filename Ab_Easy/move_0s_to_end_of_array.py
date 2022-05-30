@@ -14,7 +14,7 @@ def sort_0s(array):
 
 
 nums = [1, 2, 0, 4, 0, 0, 7, 0, 9]
-#             ^  ^
+#       ^^
 
 sort_0s(nums)
 print(nums)
