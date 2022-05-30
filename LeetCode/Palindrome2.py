@@ -1,5 +1,5 @@
 # check if a string is palindrome
-# other wise see if string can be rearranged so that it can be a plindrome
+# otherwise, see if string can be rearranged so that it can be a palindrome
 
 
 def is_palindrome(word):
@@ -18,7 +18,6 @@ def can_be_palindrome(word):
                 odd = True
             else:
                 return False
-                exit(0)
     return True
 
 
