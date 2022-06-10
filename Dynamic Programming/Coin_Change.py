@@ -35,7 +35,7 @@ def coinchange(coins, amount):
 '''
 My solution
 def coinchange2(coins, amount):
-    table = [-1]*(amount+1)
+    table = [-1]*(MAX)
 
     spots = [0]
     table[0] = 0
@@ -56,22 +56,22 @@ def coinchange2(coins, amount):
     return table[-1]
 '''
 
-# Correct Solution
 
-def coinchange(coins, amount):
-    table = [amount+1]*(amount+1)
+# Correct Solution
+def coin_change(coins, target):
+    max_ = target + 1            # one more than target
+    table = [max_] * max_
     table[0] = 0
 
-    for i in range(amount+1):
+    for i in range(1, max_):
         for coin in coins:
-            if coin <= i:
+            if coin <= i:       # Anything greater than i goes past target
                 table[i] = min(table[i], 1+table[i-coin])
 
-    return table[-1] if table[-1] != amount+1 else -1
+    return table[target] if table[target] != max_ else -1
 
 
-
-print(coinchange([2,5], 6))
+print(coin_change([1, 3, 4, 5], 7))
 
 
 '''
