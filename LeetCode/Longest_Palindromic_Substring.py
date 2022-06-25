@@ -20,31 +20,26 @@ Output: "bb"
 # Expand outwards from the center to find the longest palindrome.
 
 
-def longest_palindromic_substring(s):
+def longest_palindromic_substring(string):
+    if not string:
+        return ''
 
-    if len(s) == 0:
-        return ""
-    count = 0
-    left = right =0
-    for m in range(len(s)):
-        l = r = m
-        while l >= 0 and r < len(s) and s[l] == s[r]:
-            length = r - l + 1
-            if length > count:
-                left, right = l, r
-                count = length
-            l, r = l-1, r+1
+    count = 1
+    left, right = 0, 0
+    for m in range(len(string)):
+        l, r = m - 1, m + 1
+        while l >= 0 and r < len(string) and string[l] == string[r]:
+            count = max(count, r - l + 1)
+            left, right = l, r
+            l, r = l - 1, r + 1
 
-        l = r = m
-        r += 1
-        # Same exact code as above, but with the right pointer being incremented by 1
-        while l >= 0 and r < len(s) and s[l] == s[r]:
-            length = r - l + 1
-            if length > count:
-                left, right = l, r
-                count = length
-            l, r = l-1, r+1
-    return s[left:right+1]
+        l, r = m, m + 1
+        while l >= 0 and r < len(string) and string[l] == string[r]:
+            count = max(count, r - l + 1)
+            left, right = l, r
+            l, r = l - 1, r + 1
+
+    return string[left:right+1]
 
 
 print(longest_palindromic_substring("babad"))
