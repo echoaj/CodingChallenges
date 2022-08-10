@@ -15,7 +15,7 @@ for i in range(len(nums)):
         else:
             combos[key].append((nums[i], nums[j]))
 
-
+print(combos)
 for key in combos:
     if len(combos[key]) > 1:
         for i in range(len(combos[key])):
